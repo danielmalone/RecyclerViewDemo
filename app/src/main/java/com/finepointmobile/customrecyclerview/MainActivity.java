@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
             result.add(ci);
         }
 
-        Person asdf = new Person();
-        asdf.firstName = "Daniel Malone";
-        result.add(asdf);
+        Person additionalPerson = new Person();
+        additionalPerson.firstName = "Daniel Malone";
+        result.add(additionalPerson);
 
         return result;
     }
