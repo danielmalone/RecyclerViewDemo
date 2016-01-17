@@ -31,7 +31,7 @@ public class ContactAdapterNew extends RecyclerView.Adapter<ContactAdapterNew.Cu
     @Override
     public void onBindViewHolder(CustomViewHolder holder, int position) {
         Person person = mPersonList.get(position);
-        holder.firstName.setText("Welcome!");
+        holder.firstName.setText(person.firstName);
     }
 
     @Override
